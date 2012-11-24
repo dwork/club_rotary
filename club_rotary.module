@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Club Rotary feature.
+ */
+
+include_once 'club_rotary.features.inc';

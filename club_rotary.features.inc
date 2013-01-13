@@ -15,6 +15,13 @@ function club_rotary_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function club_rotary_views_api() {
+  return array("version" => "3.0");
+}
+
+/**
  * Implements hook_default_profile2_type().
  */
 function club_rotary_default_profile2_type() {
